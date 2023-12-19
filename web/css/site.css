@@ -1,0 +1,399 @@
+
+
+.container{
+    max-width: 1520px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-transition: .4s;
+}
+
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #3E5AE0;
+    font-size: .9em;
+    height: 60px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+h5{
+    font-size: 64px;
+    font-weight: 700;
+    color: #3E5AE0;
+}
+p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+.nav-link{
+    font-size: 18px;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+
+/* Header start */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sch-desc{
+    max-width: 659px;
+    margin: 30px 0 30px 0;
+}
+
+.btnn{
+    cursor: pointer;
+    width: 245px;
+    height: 60px;
+    background-color: #3E5AE0;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    border: none;
+    -webkit-transition: .4s;
+}
+
+.btnn:hover{
+    transform: scale(0.95);
+    background-color: #3457FF;
+    color: #ffffff;
+    transition: .4s;
+}
+
+.btnn-log{
+    cursor: pointer;
+    width: 245px;
+    height: 60px;
+    background-color: #3E5AE0;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    border: none;
+    -webkit-transition: .4s;
+}
+
+.btnn-log:hover{
+    color: #ffffff;
+    transform: scale(0.95);
+    background-color: #3457FF;
+    transition: .4s;
+}
+/* Header end */
+
+
+/* Information start */
+.Information{
+    margin-top: 140px;
+}
+
+.inf-desc{
+    margin-top: 30px;
+    max-width: 1052px;
+}
+/* Information end */
+
+
+
+/* Results start */
+.Results{
+    margin-top: 140px;
+}
+.panels{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.panel-desc{
+    text-align: center;
+}
+/* Results end */
+
+
+
+/* How start */
+.How{
+    margin-top: 140px;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.how-btn{
+    width: 532px;
+    height: 102px;
+    background-color: #e9edff;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+    font-weight: 300;
+    -webkit-transition: .4s;
+}
+
+.how-btn:hover{
+    transform: scale(0.95);
+    transition: .4s;
+}
+/* How end */
+
+
+
+
+/* Director start */
+.Director{
+    margin-top: 140px;
+}
+.director{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post{
+    font-size: 16px;
+    font-weight: 500;
+    color: #646464;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 582px;
+    justify-content: space-between;
+}
+.dir-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Director end */
+
+
+.rules-desc{
+    margin: 30px 0 50px 0;
+}
+.ii{
+    width: 500px;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E9EDFF;
+
+}
+.app{
+    width: 600px;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E9EDFF;
+}
+
+.Teachers{
+    margin-top: 140px;
+}
+.teachers{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1400px;
+}
+
+.slider{
+    max-width: 750px;
+    max-height: 470px;
+    border-radius: 20px;
+}
+
+.Application{
+    margin-top: 140px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.Program{
+    margin-top: 140px;
+}
+.program-li{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.Photo{
+    margin-top: 140px;
+}
+
+.event-img{
+    width: 515px;
+    height: 303px;
+}
+
+.events{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.event-desc{
+    max-width: 657px;
+}
+
+.desc-and-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.date{
+    margin-bottom: 25px;
+}
+
+
+.Contacts{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.social-links{
+    list-style-type: none;
+}
+.s-link{
+    font-size: 26px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.s-link:hover{
+    transform: scale(0.95);
+    opacity: 75%;
+    color: #47B79B;
+}
+.s-res{
+    padding-left: 40px;
+    font-size: 26px;
+}
+.s-res:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    opacity: 75%;
+    color: #47B79B;
+}
+
+.tab{
+    border-radius: 15px;
+    background-color: #F2ECFF;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
